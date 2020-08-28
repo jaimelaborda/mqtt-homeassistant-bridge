@@ -1,6 +1,8 @@
 # MQTT Homeassitant bridge
 
-This simple piece of code is intended to work as an small bridge between two different MQTT brokers for applications are not able to connect to two different MQTT brokers at the same time, as for example [HomeAssitant](https://www.home-assistant.io/)
+This simple piece of code is intended to work as an small bridge between two different MQTT brokers for applications that are not able to connect to two different MQTT brokers at the same time, as for example [HomeAssitant](https://www.home-assistant.io/)
+
+This was the particular need for me but surely it can be addapted and used for many more cases. It also was a very good Python exercise to probe my skills.
 
 It is deprecated even before its creation as I discovered the [Mosquitto MQTT bridge](http://www.steves-internet-guide.com/mosquitto-bridge-configuration/) so I will recommend you to stop reading this and use the Mosquitto MQTT Bridge
 
