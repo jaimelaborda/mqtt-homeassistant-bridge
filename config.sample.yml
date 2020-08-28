@@ -1,0 +1,16 @@
+# Subscriber
+mqtt-source:
+  host: 'source_host'
+  port: 1883
+  user: 'user'
+  password: 'pasword'
+  topic: '#' # Subscribe to all topics
+
+# MQTT endpoint
+mqtt-sink:
+  host: 'sink_host'
+  port: 1883
+  user: 'user'
+  password: 'password'
+  topic-prefix: Null # To-Do
+  
